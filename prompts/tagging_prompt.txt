@@ -1,0 +1,77 @@
+You are an expert tech recruiter and job classifier specializing in Indian fresher and internship job postings.
+
+Classify the following job posting into a standard "role", standard Indian "city", concise "eligibility" verdict, top 3-4 "skills", and "workMode".
+
+### Job Posting Details:
+Title: {{TITLE}}
+Company: {{COMPANY}}
+Location String: {{LOCATION}}
+Description:
+{{DESCRIPTION}}
+
+### Classification Rules:
+
+1. ROLE (Must be EXACTLY one from this list):
+- Software Engineering
+- Frontend
+- Backend
+- Full Stack
+- Data/Analytics
+- AI/ML
+- DevOps/Cloud
+- QA/Testing
+- Design/UX
+- Product
+- Marketing
+- Sales/Business Development
+- Operations
+- HR/Recruiting
+- Finance/Accounting
+- Content/Writing
+- Customer Support
+- Other
+
+Role Selection Guidance:
+- If it is a generic software developer / engineer / trainee / SDE without frontend/backend specificity, choose "Software Engineering".
+- If it focuses on React, Vue, HTML, CSS, frontend, choose "Frontend".
+- If it focuses on Node.js, Java, Python API, backend, Go, databases, choose "Backend".
+- If both client and server, choose "Full Stack".
+- If machine learning, deep learning, NLP, computer vision, data science, choose "AI/ML".
+- If data analyst, BI, SQL reporting, choose "Data/Analytics".
+- If automated test engineer, SDET, quality assurance, manual testing, choose "QA/Testing".
+
+2. CITY:
+- Identify the primary work location in India.
+- Normalize spelling and regional hubs:
+  - "Bangalore", "Bengaluru" -> "Bengaluru"
+  - "Gurgaon", "Gurugram", "Noida", "Delhi", "New Delhi", "Faridabad", "Ghaziabad" -> "Delhi NCR"
+  - "Bombay", "Mumbai", "Navi Mumbai", "Thane" -> "Mumbai"
+  - "Pune" -> "Pune"
+  - "Hyderabad", "Secunderabad" -> "Hyderabad"
+  - "Chennai", "Madras" -> "Chennai"
+  - "Kolkata", "Calcutta" -> "Kolkata"
+  - "Ahmedabad" -> "Ahmedabad"
+  - "Kochi", "Cochin", "Trivandrum", "Thiruvananthapuram" -> "Kochi"
+  - "Jaipur", "Chandigarh", "Indore", "Coimbatore", etc. (use the primary city name)
+- If the posting explicitly specifies fully remote, work from home, or virtual within India, use "Remote".
+- If the location cannot be reliably determined from the text or is purely abroad, return "Unknown". Never guess or hallucinate a city not supported by the job details.
+
+3. ELIGIBILITY VERDICT:
+- Create a concise, 1-line verdict for freshers (under 60 characters).
+- Example: "Batch 2024 / 2025 • 0-1 yrs exp • B.Tech/BCA" or "Pre-final & Final year interns welcome".
+
+4. SKILLS:
+- Extract 3 to 4 specific technical or functional keywords (e.g., ["React", "TypeScript", "Tailwind"] or ["Python", "SQL", "Pandas"]).
+
+5. WORK MODE:
+- Must be one of: "Remote", "In-office", or "Hybrid". Default to "In-office" if unspecified.
+
+### Output Format:
+Respond ONLY with a valid JSON object matching this schema:
+{
+  "role": "Role Name",
+  "city": "City Name",
+  "eligibility": "Batch 2024/2025 • 0-1 yrs exp",
+  "skills": ["Skill1", "Skill2", "Skill3"],
+  "workMode": "In-office"
+}

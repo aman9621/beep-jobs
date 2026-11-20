@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beep Jobs | India Fresher & Internship Finder</title>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #151d30;
+      --card-border: #23314e;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --primary: #3b82f6;
+      --primary-hover: #2563eb;
+      --accent: #10b981;
+      --accent-warm: #f59e0b;
+      --radius: 12px;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: var(--font);
+      min-height: 100vh;
+      line-height: 1.5;
+      padding-bottom: 60px;
+    }
+
+    .container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 24px 16px;
+    }
+
+    /* Header styling */
+    header {
+      text-align: center;
+      margin-bottom: 28px;
+      padding-top: 16px;
+    }
+
+    .logo-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(59, 130, 246, 0.15);
+      border: 1px solid rgba(59, 130, 246, 0.3);
+      color: #60a5fa;
+      padding: 4px 14px;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+    }
+
+    h1 span {
+      background: linear-gradient(135deg, #60a5fa, #c084fc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 650px;
+      margin: 0 auto 12px auto;
+    }
+
+    .meta-sub {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* Filter Bar */
+    .filter-section {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 20px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    .filter-grid {
+      display: grid;
+      grid-template-columns: 2fr 1.2fr 1.2fr 1fr auto;
+      gap: 12px;
+      align-items: center;
+    }
+
+    @media (max-width: 900px) {
+      .filter-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .filter-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .input-label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    input, select, button {
+      height: 44px;
+      border-radius: 8px;
+      border: 1px solid var(--card-border);
+      background-color: #0b0f19;
+      color: var(--text-main);
+      padding: 0 12px;
+      font-size: 0.95rem;
+      outline: none;
+      transition: all 0.2s ease;
+      font-family: inherit;
+    }
+
+    input:focus, select:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+    }
+
+    .clear-btn {
+      background-color: transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 16px;
+      white-space: nowrap;
+    }
+
+    .clear-btn:hover {
+      background-color: rgba(239, 68, 68, 0.15);
+      border-color: rgba(239, 68, 68, 0.4);
+      color: #f87171;
+    }
+
+    /* Sub Navigation: Saved Jobs & Quick Skill Filter */
+    .sub-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .view-toggles {
+      display: flex;
+      gap: 8px;
+    }
+
+    .toggle-btn {
+      height: 34px;
+      padding: 0 14px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+    }
+
+    .toggle-btn.active {
+      background: rgba(59, 130, 246, 0.2);
+      border-color: var(--primary);
+      color: #60a5fa;
+    }
+
+    .meta-counts {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .meta-counts strong {
+      color: var(--text-main);
+    }
+
+    /* Jobs Grid */
+    .jobs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+      gap: 20px;
+    }
+
+    .job-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+      position: relative;
+    }
+
+    .job-card:hover {
+      transform: translateY(-3px);
+      border-color: #3b82f6;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    }
+
+    .job-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+
+    .job-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.35;
+    }
+
+    .bookmark-btn {
+      background: transparent;
+      border: none;
+      font-size: 1.25rem;
+      cursor: pointer;
+      color: var(--text-muted);
+      height: auto;
+      padding: 0;
+      line-height: 1;
+      transition: transform 0.15s ease, color 0.15s ease;
+    }
+
+    .bookmark-btn:hover {
+      transform: scale(1.15);
+      color: #fbbf24;
+    }
+
+    .bookmark-btn.saved {
+      color: #fbbf24;
+    }
+
+    .job-company {
+      font-size: 0.95rem;
+      color: #93c5fd;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    /* AI Quick Verdict Callout Banner */
+    .verdict-banner {
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.25);
+      color: #34d399;
+      border-radius: 8px;
+      padding: 8px 10px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+
+    .badge {
+      font-size: 0.74rem;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .badge-role {
+      background: rgba(56, 189, 248, 0.12);
+      color: #38bdf8;
+      border: 1px solid rgba(56, 189, 248, 0.25);
+    }
+
+    .badge-city {
+      background: rgba(251, 191, 36, 0.12);
+      color: #fbbf24;
+      border: 1px solid rgba(251, 191, 36, 0.25);
+    }
+
+    .badge-remote {
+      background: rgba(16, 185, 129, 0.12);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.25);
+    }
+
+    .badge-hybrid {
+      background: rgba(245, 158, 11, 0.12);
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.25);
+    }
+
+    .badge-source {
+      background: rgba(168, 85, 247, 0.12);
+      color: #c084fc;
+      border: 1px solid rgba(168, 85, 247, 0.25);
+      text-transform: capitalize;
+    }
+
+    /* Clickable Skill Badges */
+    .skills-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 14px;
+    }
+
+    .skill-pill {
+      background: #0b0f19;
+      border: 1px solid #23314e;
+      color: #94a3b8;
+      font-size: 0.72rem;
+      padding: 2px 7px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .skill-pill:hover {
+      border-color: #3b82f6;
+      color: #f8fafc;
+      background: rgba(59, 130, 246, 0.15);
+    }
+
+    .job-description {
+      font-size: 0.86rem;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      line-height: 1.5;
+    }
+
+    .job-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 14px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .job-footer-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .share-btn {
+      background: #0b0f19;
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      padding: 0 10px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      height: 34px;
+      border-radius: 6px;
+      transition: all 0.15s ease;
+    }
+
+    .share-btn:hover {
+      border-color: var(--primary);
+      color: var(--text-main);
+    }
+
+    .apply-btn {
+      background-color: var(--primary);
+      color: #ffffff;
+      padding: 0 16px;
+      height: 34px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: background-color 0.15s ease;
+      border: none;
+    }
+
+    .apply-btn:hover {
+      background-color: var(--primary-hover);
+    }
+
+    .social-proof {
+      font-size: 0.75rem;
+      color: #f59e0b;
+      font-weight: 600;
+    }
+
+    /* States */
+    .state-container {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+      grid-column: 1 / -1;
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid rgba(255, 255, 255, 0.1);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 16px auto;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #1e293b;
+      border: 1px solid #3b82f6;
+      color: #ffffff;
+      padding: 12px 20px;
+      border-radius: 8px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      font-size: 0.9rem;
+      font-weight: 600;
+      display: none;
+      align-items: center;
+      gap: 8px;
+      z-index: 9999;
+    }
+
+    /* Pagination */
+    .pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      margin-top: 36px;
+    }
+
+    .page-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
+      padding: 0 16px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .page-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .page-indicator {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="logo-badge">⚡ Verified Fresher & Internship Aggregator</div>
+      <h1>Beep <span>Jobs</span></h1>
+      <p class="subtitle">Direct, authentic fresher & internship posts across India. Aggregated with zero dead links and classified with Gemini Flash AI daily.</p>
+      <div class="meta-sub">
+        <span id="lastUpdated">Checking updates...</span>
+        <span>•</span>
+        <span>Zero Credit Cards • Free Open Ingestion</span>
+      </div>
+    </header>
+
+    <!-- Search & Filters -->
+    <div class="filter-section">
+      <div class="filter-grid">
+        <div class="input-group">
+          <label class="input-label" for="searchInput">Keywords / Skills</label>
+          <input type="text" id="searchInput" placeholder="Search by skill (React, Python), company..." />
+        </div>
+
+        <div class="input-group">
+          <label class="input-label" for="roleSelect">Filter by Role</label>
+          <select id="roleSelect">
+            <option value="">All Roles</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label class="input-label" for="citySelect">Filter by City</label>
+          <select id="citySelect">
+            <option value="">All Cities</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label class="input-label" for="workModeSelect">Work Mode</label>
+          <select id="workModeSelect">
+            <option value="">All Work Modes</option>
+            <option value="Remote">Remote Only</option>
+            <option value="Hybrid">Hybrid</option>
+            <option value="In-office">In-office</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label class="input-label">&nbsp;</label>
+          <button id="clearBtn" class="clear-btn" title="Reset all filters">Clear</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sub Navigation Bar: View Toggles & Result Summary -->
+    <div class="sub-bar">
+      <div class="view-toggles">
+        <button id="allJobsToggle" class="toggle-btn active">All Listings</button>
+        <button id="savedJobsToggle" class="toggle-btn">⭐ Saved Jobs (<span id="savedCount">0</span>)</button>
+      </div>
+
+      <div class="meta-counts">
+        Showing <strong id="jobsCount">0</strong> postings
+      </div>
+    </div>
+
+    <!-- Job Cards Container -->
+    <div id="jobsGrid" class="jobs-grid">
+      <div class="state-container">
+        <div class="spinner"></div>
+        <p>Finding matching fresher opportunities...</p>
+      </div>
+    </div>
+
+    <!-- Pagination Controls -->
+    <div class="pagination" id="paginationControls" style="display: none;">
+      <button id="prevBtn" class="page-btn">← Previous</button>
+      <span id="pageIndicator" class="page-indicator">Page 1 of 1</span>
+      <button id="nextBtn" class="page-btn">Next →</button>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast"></div>
+
+  <script>
+    /**
+     * Frontend state and event listeners.
+     * Pure vanilla JS, no external libraries.
+     */
+    let currentPage = 1;
+    let totalPages = 1;
+    let debounceTimer = null;
+    let currentView = 'all'; // 'all' or 'saved'
+    let savedJobIds = JSON.parse(localStorage.getItem('beep_saved_jobs') || '[]');
+
+    const searchInput = document.getElementById('searchInput');
+    const roleSelect = document.getElementById('roleSelect');
+    const citySelect = document.getElementById('citySelect');
+    const workModeSelect = document.getElementById('workModeSelect');
+    const clearBtn = document.getElementById('clearBtn');
+    const jobsGrid = document.getElementById('jobsGrid');
+    const jobsCount = document.getElementById('jobsCount');
+    const lastUpdated = document.getElementById('lastUpdated');
+    const paginationControls = document.getElementById('paginationControls');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const pageIndicator = document.getElementById('pageIndicator');
+    const allJobsToggle = document.getElementById('allJobsToggle');
+    const savedJobsToggle = document.getElementById('savedJobsToggle');
+    const savedCount = document.getElementById('savedCount');
+    const toast = document.getElementById('toast');
+
+    /**
+     * Shows a toast notification.
+     */
+    function showToast(msg) {
+      toast.textContent = msg;
+      toast.style.display = 'flex';
+      setTimeout(() => {
+        toast.style.display = 'none';
+      }, 2500);
+    }
+
+    /**
+     * Updates saved count badge.
+     */
+    function updateSavedBadge() {
+      savedCount.textContent = savedJobIds.length;
+    }
+
+    /**
+     * Escapes unsafe characters for safe innerHTML injection.
+     */
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    /**
+     * Formats an ISO date into relative readable time.
+     */
+    function formatRelativeDate(isoStr) {
+      if (!isoStr) return 'Recently';
+      const date = new Date(isoStr);
+      const diffMs = Date.now() - date.getTime();
+      const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+
+      if (diffDays <= 0) return 'Today';
+      if (diffDays === 1) return 'Yesterday';
+      if (diffDays < 30) return `${diffDays}d ago`;
+      return date.toLocaleDateString('en-IN', { month: 'short', day: 'numeric' });
+    }
+
+    /**
+     * Synchronizes browser URL query parameters without refreshing the page.
+     * Allows candidates to copy and share exact filtered search results!
+     */
+    function syncUrlParams() {
+      const params = new URLSearchParams();
+      if (searchInput.value.trim()) params.set('q', searchInput.value.trim());
+      if (roleSelect.value) params.set('role', roleSelect.value);
+      if (citySelect.value) params.set('city', citySelect.value);
+      if (workModeSelect.value) params.set('workMode', workModeSelect.value);
+      if (currentPage > 1) params.set('page', currentPage);
+
+      const queryString = params.toString();
+      const newUrl = queryString ? `${window.location.pathname}?${queryString}` : window.location.pathname;
+      window.history.replaceState({}, '', newUrl);
+    }
+
+    /**
+     * Restores filter state from URL query parameters on initial page boot.
+     */
+    function restoreStateFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      if (params.has('q')) searchInput.value = params.get('q');
+      if (params.has('role')) roleSelect.value = params.get('role');
+      if (params.has('city')) citySelect.value = params.get('city');
+      if (params.has('workMode')) workModeSelect.value = params.get('workMode');
+      if (params.has('page')) currentPage = parseInt(params.get('page'), 10) || 1;
+    }
+
+    /**
+     * Loads dynamic filter options (distinct roles and cities with counts).
+     */
+    async function loadFilters() {
+      try {
+        const res = await fetch('/api/filters');
+        if (!res.ok) return;
+        const data = await res.json();
+
+        // Populate Roles
+        const currentRole = roleSelect.value;
+        roleSelect.innerHTML = '<option value="">All Roles</option>' +
+          data.roles.map(r => `<option value="${escapeHtml(r.name)}">${escapeHtml(r.name)} (${r.count})</option>`).join('');
+        roleSelect.value = currentRole;
+
+        // Populate Cities
+        const currentCity = citySelect.value;
+        citySelect.innerHTML = '<option value="">All Cities</option>' +
+          data.cities.map(c => `<option value="${escapeHtml(c.name)}">${escapeHtml(c.name)} (${c.count})</option>`).join('');
+        citySelect.value = currentCity;
+
+        if (data.lastUpdated) {
+          const updateDate = new Date(data.lastUpdated);
+          lastUpdated.textContent = `Updated: ${updateDate.toLocaleDateString('en-IN', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })}`;
+        }
+      } catch (err) {
+        console.error('Failed to load filter metadata:', err);
+      }
+    }
+
+    /**
+     * Tracks apply click asynchronously.
+     */
+    window.trackApply = function(jobId) {
+      try {
+        fetch('/api/apply/' + encodeURIComponent(jobId), { method: 'POST' });
+      } catch (e) {}
+    };
+
+    /**
+     * Copies a direct shareable link for a job.
+     */
+    window.copyJobShareLink = function(jobTitle, role) {
+      const shareUrl = `${window.location.origin}${window.location.pathname}?q=${encodeURIComponent(jobTitle)}`;
+      navigator.clipboard.writeText(shareUrl).then(() => {
+        showToast('Link copied to clipboard! 📋');
+      }).catch(() => {
+        showToast('Failed to copy link');
+      });
+    };
+
+    /**
+     * Toggles bookmark state for a job.
+     */
+    window.toggleSaveJob = function(jobId) {
+      const idx = savedJobIds.indexOf(jobId);
+      if (idx === -1) {
+        savedJobIds.push(jobId);
+        showToast('Job saved to your shortlist! ⭐');
+      } else {
+        savedJobIds.splice(idx, 1);
+        showToast('Removed from saved shortlist.');
+      }
+      localStorage.setItem('beep_saved_jobs', JSON.stringify(savedJobIds));
+      updateSavedBadge();
+      fetchJobs();
+    };
+
+    /**
+     * Quick filter by clicking a skill badge.
+     */
+    window.filterBySkill = function(skill) {
+      searchInput.value = skill;
+      currentPage = 1;
+      syncUrlParams();
+      fetchJobs();
+    };
+
+    /**
+     * Fetches and renders jobs based on current filters and page.
+     */
+    async function fetchJobs() {
+      jobsGrid.innerHTML = `
+        <div class="state-container">
+          <div class="spinner"></div>
+          <p>Finding matching opportunities...</p>
+        </div>
+      `;
+
+      const params = new URLSearchParams({
+        q: searchInput.value.trim(),
+        role: roleSelect.value,
+        city: citySelect.value,
+        workMode: workModeSelect.value,
+        page: currentPage,
+        limit: 21
+      });
+
+      try {
+        const res = await fetch(`/api/jobs?${params.toString()}`);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+
+        let jobsToRender = data.jobs || [];
+
+        // If in saved jobs view, filter locally
+        if (currentView === 'saved') {
+          jobsToRender = jobsToRender.filter(j => savedJobIds.includes(j.id));
+          jobsCount.textContent = jobsToRender.length;
+        } else {
+          jobsCount.textContent = data.total;
+          currentPage = data.page;
+          totalPages = data.totalPages;
+        }
+
+        // Render Cards
+        if (jobsToRender.length === 0) {
+          jobsGrid.innerHTML = `
+            <div class="state-container">
+              <div style="font-size: 2.5rem; margin-bottom: 12px;">🔍</div>
+              <h3>${currentView === 'saved' ? 'No saved jobs yet' : 'No matching fresher roles found'}</h3>
+              <p style="margin-top: 6px;">${currentView === 'saved' ? 'Click the ⭐ star on any job card to save it for later.' : 'Try adjusting your search terms or clearing role and city filters.'}</p>
+            </div>
+          `;
+          paginationControls.style.display = 'none';
+          return;
+        }
+
+        jobsGrid.innerHTML = jobsToRender.map(job => {
+          const isSaved = savedJobIds.includes(job.id);
+          const workMode = job.workMode || (job.city === 'Remote' ? 'Remote' : 'In-office');
+          const workModeClass = workMode === 'Remote' ? 'badge-remote' : (workMode === 'Hybrid' ? 'badge-hybrid' : 'badge-role');
+
+          const skillsHtml = Array.isArray(job.skills) && job.skills.length > 0
+            ? job.skills.map(s => `<span class="skill-pill" onclick="filterBySkill('${escapeHtml(s)}')">#${escapeHtml(s)}</span>`).join('')
+            : '';
+
+          return `
+            <div class="job-card">
+              <div>
+                <div class="job-top">
+                  <h2 class="job-title">${escapeHtml(job.title)}</h2>
+                  <button class="bookmark-btn ${isSaved ? 'saved' : ''}" onclick="toggleSaveJob('${escapeHtml(job.id)}')" title="${isSaved ? 'Remove from saved' : 'Save job'}">
+                    ★
+                  </button>
+                </div>
+                <div class="job-company">${escapeHtml(job.company)}</div>
+
+                <!-- AI Quick Verdict Callout -->
+                <div class="verdict-banner">
+                  <span>🎓</span>
+                  <span><strong>AI Verdict:</strong> ${escapeHtml(job.eligibility || 'Batch 2024 / 2025 • Freshers welcome')}</span>
+                </div>
+
+                <div class="badges">
+                  <span class="badge ${workModeClass}">⚡ ${escapeHtml(workMode)}</span>
+                  <span class="badge badge-role">🏷️ ${escapeHtml(job.role || 'Other')}</span>
+                  <span class="badge badge-city">📍 ${escapeHtml(job.city || job.location)}</span>
+                  <span class="badge badge-source">🌐 ${escapeHtml(job.source || 'Public')}</span>
+                </div>
+
+                <!-- Clickable Skill Badges -->
+                ${skillsHtml ? `<div class="skills-row">${skillsHtml}</div>` : ''}
+
+                <p class="job-description">${escapeHtml(job.description)}</p>
+              </div>
+
+              <div class="job-footer">
+                <div>
+                  <div class="job-date">📅 ${formatRelativeDate(job.postedAt)}</div>
+                  ${job.applyClicks ? `<div class="social-proof">🔥 ${job.applyClicks} applicants</div>` : ''}
+                </div>
+
+                <div class="job-footer-actions">
+                  <button class="share-btn" onclick="copyJobShareLink('${escapeHtml(job.title)}', '${escapeHtml(job.role)}')" title="Copy link to share">
+                    🔗 Share
+                  </button>
+                  <a href="${escapeHtml(job.url || '#')}" target="_blank" rel="noopener noreferrer" onclick="trackApply('${escapeHtml(job.id)}')" class="apply-btn">
+                    Apply ↗
+                  </a>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('');
+
+        // Update Pagination controls
+        if (currentView === 'all' && totalPages > 1) {
+          paginationControls.style.display = 'flex';
+          pageIndicator.textContent = `Page ${currentPage} of ${totalPages}`;
+          prevBtn.disabled = currentPage <= 1;
+          nextBtn.disabled = currentPage >= totalPages;
+        } else {
+          paginationControls.style.display = 'none';
+        }
+
+      } catch (err) {
+        jobsGrid.innerHTML = `
+          <div class="state-container">
+            <p style="color: #f87171;">Failed to load job listings. Please verify that the server is running.</p>
+          </div>
+        `;
+      }
+    }
+
+    // Event Listeners
+    searchInput.addEventListener('input', () => {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(() => {
+        currentPage = 1;
+        syncUrlParams();
+        fetchJobs();
+      }, 300);
+    });
+
+    roleSelect.addEventListener('change', () => {
+      currentPage = 1;
+      syncUrlParams();
+      fetchJobs();
+    });
+
+    citySelect.addEventListener('change', () => {
+      currentPage = 1;
+      syncUrlParams();
+      fetchJobs();
+    });
+
+    workModeSelect.addEventListener('change', () => {
+      currentPage = 1;
+      syncUrlParams();
+      fetchJobs();
+    });
+
+    clearBtn.addEventListener('click', () => {
+      searchInput.value = '';
+      roleSelect.value = '';
+      citySelect.value = '';
+      workModeSelect.value = '';
+      currentPage = 1;
+      syncUrlParams();
+      fetchJobs();
+    });
+
+    allJobsToggle.addEventListener('click', () => {
+      currentView = 'all';
+      allJobsToggle.classList.add('active');
+      savedJobsToggle.classList.remove('active');
+      currentPage = 1;
+      fetchJobs();
+    });
+
+    savedJobsToggle.addEventListener('click', () => {
+      currentView = 'saved';
+      savedJobsToggle.classList.add('active');
+      allJobsToggle.classList.remove('active');
+      currentPage = 1;
+      fetchJobs();
+    });
+
+    prevBtn.addEventListener('click', () => {
+      if (currentPage > 1) {
+        currentPage--;
+        syncUrlParams();
+        fetchJobs();
+        window.scrollTo({ top: 220, behavior: 'smooth' });
+      }
+    });
+
+    nextBtn.addEventListener('click', () => {
+      if (currentPage < totalPages) {
+        currentPage++;
+        syncUrlParams();
+        fetchJobs();
+        window.scrollTo({ top: 220, behavior: 'smooth' });
+      }
+    });
+
+    // Boot execution
+    updateSavedBadge();
+    restoreStateFromUrl();
+    loadFilters().then(() => {
+      fetchJobs();
+    });
+  </script>
+</body>
+</html>

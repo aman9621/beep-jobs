@@ -1,0 +1,2530 @@
+{
+  "summary": {
+    "totalCalls": 517,
+    "totalPromptTokens": 340631,
+    "totalCandidatesTokens": 23537,
+    "totalTokens": 364168
+  },
+  "calls": [
+    {
+      "timestamp": "2026-11-18T15:30:00.000Z",
+      "jobId": "mock-1001",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 302,
+      "candidatesTokens": 18,
+      "totalTokens": 320,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-18T15:30:02.000Z",
+      "jobId": "mock-1002",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 298,
+      "candidatesTokens": 17,
+      "totalTokens": 315,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-18T15:30:04.000Z",
+      "jobId": "mock-1003",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 310,
+      "candidatesTokens": 19,
+      "totalTokens": 329,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T09:09:41.285Z",
+      "jobId": "gh-instawork-4686783006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:09:41.295Z",
+      "jobId": "gh-instawork-4706444006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:09:41.301Z",
+      "jobId": "gh-instawork-4619515006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:09:41.304Z",
+      "jobId": "gh-instawork-4646670006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:09:41.307Z",
+      "jobId": "gh-instawork-4646658006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:09:47.320Z",
+      "jobId": "gh-instawork-4618554006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:09:47.323Z",
+      "jobId": "gh-stripe-8031833",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:09:47.343Z",
+      "jobId": "gh-instawork-4651150006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:09:47.346Z",
+      "jobId": "gh-instawork-4712960006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:09:47.349Z",
+      "jobId": "gh-instawork-4590775006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:09:53.375Z",
+      "jobId": "gh-rubrik-8166537",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:09:53.381Z",
+      "jobId": "gh-rubrik-8166523",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:09:53.384Z",
+      "jobId": "gh-rubrik-8305308",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:09:53.390Z",
+      "jobId": "gh-rubrik-8166514",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:09:53.393Z",
+      "jobId": "gh-rubrik-8345283",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:13:58.514Z",
+      "jobId": "gh-instawork-4706444006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:13:58.519Z",
+      "jobId": "gh-instawork-4646670006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:13:58.522Z",
+      "jobId": "gh-instawork-4646658006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:13:58.526Z",
+      "jobId": "gh-instawork-4619515006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:13:58.531Z",
+      "jobId": "gh-instawork-4686783006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:14:05.143Z",
+      "jobId": "gh-stripe-8031833",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:14:05.148Z",
+      "jobId": "gh-instawork-4618554006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:14:05.152Z",
+      "jobId": "gh-instawork-4712960006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:14:05.155Z",
+      "jobId": "gh-instawork-4590775006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:14:05.270Z",
+      "jobId": "gh-instawork-4651150006",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:14:11.805Z",
+      "jobId": "gh-rubrik-8305308",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:14:11.808Z",
+      "jobId": "gh-rubrik-8166537",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:14:11.812Z",
+      "jobId": "gh-rubrik-8345283",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:14:11.931Z",
+      "jobId": "gh-rubrik-8166514",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T09:14:11.934Z",
+      "jobId": "gh-rubrik-8166523",
+      "model": "gemini-1.5-flash",
+      "promptTokens": 0,
+      "candidatesTokens": 0,
+      "totalTokens": 0,
+      "success": false
+    },
+    {
+      "timestamp": "2026-11-20T11:02:55.987Z",
+      "jobId": "lever-paytm-6d7551f7-34c3-46a2-a4e4-18b29f15338c",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1068,
+      "candidatesTokens": 76,
+      "totalTokens": 1144,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:02:57.644Z",
+      "jobId": "lever-paytm-426a6834-1397-4e65-94af-69874c790805",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1084,
+      "candidatesTokens": 90,
+      "totalTokens": 1174,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:02:58.192Z",
+      "jobId": "lever-paytm-88e8b698-8f03-4e09-9581-168f831fb3af",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1062,
+      "candidatesTokens": 87,
+      "totalTokens": 1149,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:02:58.966Z",
+      "jobId": "lever-paytm-9d497980-2032-440c-8bac-63fb53938acc",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1058,
+      "candidatesTokens": 72,
+      "totalTokens": 1130,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:03:03.263Z",
+      "jobId": "lever-paytm-0ecd9d93-e4f3-4dd0-a22e-852fec9b6e02",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1068,
+      "candidatesTokens": 74,
+      "totalTokens": 1142,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:03:11.343Z",
+      "jobId": "lever-paytm-95eadc2b-27bf-40fe-b6e6-93aaeadd08f7",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1076,
+      "candidatesTokens": 89,
+      "totalTokens": 1165,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:20:39.865Z",
+      "jobId": "gh-razorpaysoftwareprivatelimited-4746959005",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1084,
+      "candidatesTokens": 72,
+      "totalTokens": 1156,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:20:43.100Z",
+      "jobId": "gh-elastic-8337068",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1100,
+      "candidatesTokens": 82,
+      "totalTokens": 1182,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:20:43.513Z",
+      "jobId": "gh-gitlab-8864819002",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1091,
+      "candidatesTokens": 70,
+      "totalTokens": 1161,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:20:43.518Z",
+      "jobId": "gh-razorpaysoftwareprivatelimited-4741226005",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1086,
+      "candidatesTokens": 77,
+      "totalTokens": 1163,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:20:43.522Z",
+      "jobId": "gh-databricks-6918763002",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1076,
+      "candidatesTokens": 90,
+      "totalTokens": 1166,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:20:47.750Z",
+      "jobId": "gh-okta-7626222",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1076,
+      "candidatesTokens": 87,
+      "totalTokens": 1163,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:20:47.756Z",
+      "jobId": "gh-gitlab-8916232002",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1095,
+      "candidatesTokens": 88,
+      "totalTokens": 1183,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:20:48.170Z",
+      "jobId": "gh-okta-8354829",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1081,
+      "candidatesTokens": 82,
+      "totalTokens": 1163,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:20:54.467Z",
+      "jobId": "gh-okta-7727730",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1089,
+      "candidatesTokens": 86,
+      "totalTokens": 1175,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:20:54.777Z",
+      "jobId": "gh-gitlab-8887401002",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1094,
+      "candidatesTokens": 76,
+      "totalTokens": 1170,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:20:58.359Z",
+      "jobId": "gh-okta-8377182",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1084,
+      "candidatesTokens": 84,
+      "totalTokens": 1168,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:20:58.674Z",
+      "jobId": "gh-okta-7770733",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1082,
+      "candidatesTokens": 79,
+      "totalTokens": 1161,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:20:59.192Z",
+      "jobId": "gh-okta-8003027",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1093,
+      "candidatesTokens": 73,
+      "totalTokens": 1166,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:20:59.196Z",
+      "jobId": "gh-okta-8288466",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1093,
+      "candidatesTokens": 69,
+      "totalTokens": 1162,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:21:04.600Z",
+      "jobId": "gh-okta-8248830",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1094,
+      "candidatesTokens": 70,
+      "totalTokens": 1164,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:21:07.807Z",
+      "jobId": "gh-rubrik-8223186",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1075,
+      "candidatesTokens": 70,
+      "totalTokens": 1145,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:21:07.813Z",
+      "jobId": "gh-okta-8195169",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1090,
+      "candidatesTokens": 84,
+      "totalTokens": 1174,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:21:08.212Z",
+      "jobId": "gh-okta-8248800",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1093,
+      "candidatesTokens": 72,
+      "totalTokens": 1165,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:21:44.112Z",
+      "jobId": "gh-rubrik-8305308",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1066,
+      "candidatesTokens": 76,
+      "totalTokens": 1142,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:21:44.220Z",
+      "jobId": "gh-rubrik-8336535",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1088,
+      "candidatesTokens": 71,
+      "totalTokens": 1159,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:21:44.331Z",
+      "jobId": "gh-rubrik-8349847",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1092,
+      "candidatesTokens": 92,
+      "totalTokens": 1184,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:21:44.669Z",
+      "jobId": "gh-rubrik-8385257",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1074,
+      "candidatesTokens": 75,
+      "totalTokens": 1149,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:21:57.690Z",
+      "jobId": "gh-rubrik-8345283",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1076,
+      "candidatesTokens": 80,
+      "totalTokens": 1156,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:22:01.331Z",
+      "jobId": "gh-rubrik-8282005",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1091,
+      "candidatesTokens": 86,
+      "totalTokens": 1177,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:22:01.339Z",
+      "jobId": "gh-rubrik-8377184",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1077,
+      "candidatesTokens": 78,
+      "totalTokens": 1155,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:22:07.197Z",
+      "jobId": "gh-rubrik-8166537",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1103,
+      "candidatesTokens": 87,
+      "totalTokens": 1190,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:22:08.311Z",
+      "jobId": "gh-rubrik-7956918",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1093,
+      "candidatesTokens": 79,
+      "totalTokens": 1172,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:22:08.316Z",
+      "jobId": "gh-rubrik-8166523",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1111,
+      "candidatesTokens": 89,
+      "totalTokens": 1200,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:22:10.569Z",
+      "jobId": "gh-instawork-4682996006",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1137,
+      "candidatesTokens": 72,
+      "totalTokens": 1209,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:22:11.864Z",
+      "jobId": "gh-instawork-4701137006",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1103,
+      "candidatesTokens": 68,
+      "totalTokens": 1171,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:22:18.534Z",
+      "jobId": "gh-instawork-4718950006",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1130,
+      "candidatesTokens": 73,
+      "totalTokens": 1203,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:22:19.156Z",
+      "jobId": "gh-instawork-4716231006",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1139,
+      "candidatesTokens": 71,
+      "totalTokens": 1210,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:22:21.299Z",
+      "jobId": "gh-instawork-4682997006",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1135,
+      "candidatesTokens": 78,
+      "totalTokens": 1213,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:22:23.981Z",
+      "jobId": "gh-instawork-4646670006",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1106,
+      "candidatesTokens": 83,
+      "totalTokens": 1189,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:22:23.985Z",
+      "jobId": "gh-instawork-4646649006",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1101,
+      "candidatesTokens": 69,
+      "totalTokens": 1170,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:22:24.277Z",
+      "jobId": "gh-instawork-4686783006",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1124,
+      "candidatesTokens": 88,
+      "totalTokens": 1212,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:22:56.596Z",
+      "jobId": "gh-instawork-4618554006",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1102,
+      "candidatesTokens": 74,
+      "totalTokens": 1176,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:22:56.796Z",
+      "jobId": "gh-instawork-4350762006",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1101,
+      "candidatesTokens": 82,
+      "totalTokens": 1183,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:22:57.381Z",
+      "jobId": "gh-instawork-4684058006",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1095,
+      "candidatesTokens": 80,
+      "totalTokens": 1175,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:02.467Z",
+      "jobId": "gh-instawork-4590775006",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1076,
+      "candidatesTokens": 75,
+      "totalTokens": 1151,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:04.003Z",
+      "jobId": "gh-instawork-4712960006",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1094,
+      "candidatesTokens": 85,
+      "totalTokens": 1179,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:06.780Z",
+      "jobId": "lever-cred-913a6616-78c9-4ca3-8c92-67ddea8a80df",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1101,
+      "candidatesTokens": 76,
+      "totalTokens": 1177,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:06.784Z",
+      "jobId": "gh-coinbase-8122777",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1100,
+      "candidatesTokens": 80,
+      "totalTokens": 1180,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:06.976Z",
+      "jobId": "gh-instawork-4651150006",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1092,
+      "candidatesTokens": 81,
+      "totalTokens": 1173,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:07.670Z",
+      "jobId": "gh-stripe-8352489",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1081,
+      "candidatesTokens": 86,
+      "totalTokens": 1167,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:07.817Z",
+      "jobId": "gh-coinbase-8165441",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1096,
+      "candidatesTokens": 66,
+      "totalTokens": 1162,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:10.315Z",
+      "jobId": "lever-paytm-ad781ae8-cd4a-44c1-a74b-2822118b7c3d",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1060,
+      "candidatesTokens": 83,
+      "totalTokens": 1143,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:10.869Z",
+      "jobId": "lever-paytm-271d28ce-e61c-4216-b7d4-adddd79eefa6",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1102,
+      "candidatesTokens": 80,
+      "totalTokens": 1182,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:16.421Z",
+      "jobId": "lever-paytm-df935f72-9721-414e-9a3b-e20a679fef07",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1071,
+      "candidatesTokens": 71,
+      "totalTokens": 1142,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:17.218Z",
+      "jobId": "lever-paytm-84ffd393-c82b-484c-9a88-9f9ddef1b720",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1090,
+      "candidatesTokens": 81,
+      "totalTokens": 1171,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:17.231Z",
+      "jobId": "lever-paytm-715e52dd-0a51-4ff7-be68-855112e56b99",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1078,
+      "candidatesTokens": 83,
+      "totalTokens": 1161,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:19.363Z",
+      "jobId": "lever-paytm-426a6834-1397-4e65-94af-69874c790805",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1084,
+      "candidatesTokens": 88,
+      "totalTokens": 1172,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:26.474Z",
+      "jobId": "lever-paytm-0ecd9d93-e4f3-4dd0-a22e-852fec9b6e02",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1068,
+      "candidatesTokens": 73,
+      "totalTokens": 1141,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:26.851Z",
+      "jobId": "lever-paytm-74ce5d90-26b5-41b5-81dc-2ba5b862da60",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1068,
+      "candidatesTokens": 80,
+      "totalTokens": 1148,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:53.395Z",
+      "jobId": "lever-paytm-95eadc2b-27bf-40fe-b6e6-93aaeadd08f7",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1076,
+      "candidatesTokens": 89,
+      "totalTokens": 1165,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:53.400Z",
+      "jobId": "lever-paytm-021ee805-1a37-48a6-9a01-3e129ae03c3a",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1070,
+      "candidatesTokens": 80,
+      "totalTokens": 1150,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:53.449Z",
+      "jobId": "lever-paytm-88e8b698-8f03-4e09-9581-168f831fb3af",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1062,
+      "candidatesTokens": 85,
+      "totalTokens": 1147,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:53.563Z",
+      "jobId": "lever-paytm-9d497980-2032-440c-8bac-63fb53938acc",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1058,
+      "candidatesTokens": 88,
+      "totalTokens": 1146,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:23:59.426Z",
+      "jobId": "lever-paytm-6d7551f7-34c3-46a2-a4e4-18b29f15338c",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1068,
+      "candidatesTokens": 88,
+      "totalTokens": 1156,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:24:02.211Z",
+      "jobId": "lever-paytm-d071f4bc-e651-48dc-85ae-a8ee904fd0fa",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1087,
+      "candidatesTokens": 89,
+      "totalTokens": 1176,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:24:02.678Z",
+      "jobId": "lever-paytm-b671fa55-dccf-4f1f-acc4-10e78d74c8b4",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1091,
+      "candidatesTokens": 92,
+      "totalTokens": 1183,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:24:08.625Z",
+      "jobId": "lever-paytm-552ba2c8-ffb8-4342-8d8c-ca1903800a68",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1083,
+      "candidatesTokens": 68,
+      "totalTokens": 1151,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:41:37.219Z",
+      "jobId": "gh-twilio-8358938",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1108,
+      "candidatesTokens": 76,
+      "totalTokens": 1184,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:41:45.228Z",
+      "jobId": "gh-twilio-8355801",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1107,
+      "candidatesTokens": 63,
+      "totalTokens": 1170,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:41:53.263Z",
+      "jobId": "gh-twilio-8334053",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1107,
+      "candidatesTokens": 60,
+      "totalTokens": 1167,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:42:02.037Z",
+      "jobId": "gh-datadog-8222279",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1089,
+      "candidatesTokens": 78,
+      "totalTokens": 1167,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:42:09.676Z",
+      "jobId": "gh-datadog-7785319",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1107,
+      "candidatesTokens": 74,
+      "totalTokens": 1181,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:42:18.235Z",
+      "jobId": "gh-datadog-7531575",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1089,
+      "candidatesTokens": 70,
+      "totalTokens": 1159,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:42:25.983Z",
+      "jobId": "gh-mongodb-7318558",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1064,
+      "candidatesTokens": 81,
+      "totalTokens": 1145,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:42:33.552Z",
+      "jobId": "gh-airbnb-8300382",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1086,
+      "candidatesTokens": 71,
+      "totalTokens": 1157,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:42:40.324Z",
+      "jobId": "gh-toast-8230746",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1086,
+      "candidatesTokens": 72,
+      "totalTokens": 1158,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:42:48.446Z",
+      "jobId": "gh-zscaler-5258577007",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1099,
+      "candidatesTokens": 68,
+      "totalTokens": 1167,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:42:56.098Z",
+      "jobId": "gh-zscaler-5295948007",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1096,
+      "candidatesTokens": 70,
+      "totalTokens": 1166,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:43:03.153Z",
+      "jobId": "gh-zscaler-5286993007",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1096,
+      "candidatesTokens": 73,
+      "totalTokens": 1169,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:43:10.125Z",
+      "jobId": "gh-zscaler-5276906007",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1097,
+      "candidatesTokens": 66,
+      "totalTokens": 1163,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:43:20.352Z",
+      "jobId": "gh-zscaler-5261002007",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1105,
+      "candidatesTokens": 78,
+      "totalTokens": 1183,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:43:29.450Z",
+      "jobId": "gh-zscaler-5283496007",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1099,
+      "candidatesTokens": 84,
+      "totalTokens": 1183,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:43:38.784Z",
+      "jobId": "gh-figma-5579204004",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1088,
+      "candidatesTokens": 74,
+      "totalTokens": 1162,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:43:46.195Z",
+      "jobId": "gh-figma-6223879004",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1114,
+      "candidatesTokens": 71,
+      "totalTokens": 1185,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:43:54.534Z",
+      "jobId": "gh-workato-8924723002",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1105,
+      "candidatesTokens": 67,
+      "totalTokens": 1172,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:44:01.509Z",
+      "jobId": "gh-zuora-8103489",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1074,
+      "candidatesTokens": 85,
+      "totalTokens": 1159,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:44:11.572Z",
+      "jobId": "gh-zuora-8312134",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1088,
+      "candidatesTokens": 83,
+      "totalTokens": 1171,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:44:23.844Z",
+      "jobId": "gh-pubmatic-5466677008",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1078,
+      "candidatesTokens": 88,
+      "totalTokens": 1166,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:44:31.715Z",
+      "jobId": "gh-groww-4880153101",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1094,
+      "candidatesTokens": 80,
+      "totalTokens": 1174,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:44:42.434Z",
+      "jobId": "gh-groww-4714065101",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1092,
+      "candidatesTokens": 73,
+      "totalTokens": 1165,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:44:50.417Z",
+      "jobId": "gh-groww-4980317101",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1090,
+      "candidatesTokens": 67,
+      "totalTokens": 1157,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:44:58.962Z",
+      "jobId": "gh-groww-4714061101",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1097,
+      "candidatesTokens": 68,
+      "totalTokens": 1165,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:45:07.878Z",
+      "jobId": "gh-rubrik-8166514",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1065,
+      "candidatesTokens": 86,
+      "totalTokens": 1151,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:45:19.042Z",
+      "jobId": "gh-rubrik-8223186",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1075,
+      "candidatesTokens": 68,
+      "totalTokens": 1143,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:45:30.605Z",
+      "jobId": "gh-rubrik-8305308",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1066,
+      "candidatesTokens": 76,
+      "totalTokens": 1142,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:45:41.690Z",
+      "jobId": "gh-rubrik-8345283",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1076,
+      "candidatesTokens": 80,
+      "totalTokens": 1156,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:45:50.429Z",
+      "jobId": "gh-rubrik-8385257",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1074,
+      "candidatesTokens": 83,
+      "totalTokens": 1157,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:45:59.106Z",
+      "jobId": "gh-rubrik-8336535",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1088,
+      "candidatesTokens": 70,
+      "totalTokens": 1158,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:46:05.957Z",
+      "jobId": "gh-rubrik-8349847",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1092,
+      "candidatesTokens": 85,
+      "totalTokens": 1177,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:46:22.118Z",
+      "jobId": "gh-rubrik-8166537",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1103,
+      "candidatesTokens": 87,
+      "totalTokens": 1190,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:46:30.001Z",
+      "jobId": "gh-rubrik-7956918",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1093,
+      "candidatesTokens": 94,
+      "totalTokens": 1187,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:46:40.436Z",
+      "jobId": "gh-rubrik-8282005",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1091,
+      "candidatesTokens": 72,
+      "totalTokens": 1163,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:46:47.228Z",
+      "jobId": "gh-rubrik-8377184",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1077,
+      "candidatesTokens": 86,
+      "totalTokens": 1163,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:46:54.716Z",
+      "jobId": "gh-rubrik-8166523",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1111,
+      "candidatesTokens": 88,
+      "totalTokens": 1199,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:47:02.927Z",
+      "jobId": "gh-okta-7626222",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1076,
+      "candidatesTokens": 86,
+      "totalTokens": 1162,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:47:13.617Z",
+      "jobId": "gh-okta-8354829",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1081,
+      "candidatesTokens": 82,
+      "totalTokens": 1163,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:47:23.351Z",
+      "jobId": "gh-okta-7727730",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1089,
+      "candidatesTokens": 89,
+      "totalTokens": 1178,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:47:33.289Z",
+      "jobId": "gh-okta-8288466",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1093,
+      "candidatesTokens": 73,
+      "totalTokens": 1166,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:47:42.800Z",
+      "jobId": "gh-okta-8377182",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1084,
+      "candidatesTokens": 71,
+      "totalTokens": 1155,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:47:51.754Z",
+      "jobId": "gh-okta-7770733",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1082,
+      "candidatesTokens": 84,
+      "totalTokens": 1166,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:48:02.979Z",
+      "jobId": "gh-okta-8003027",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1093,
+      "candidatesTokens": 73,
+      "totalTokens": 1166,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:48:13.623Z",
+      "jobId": "gh-okta-8248830",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1094,
+      "candidatesTokens": 87,
+      "totalTokens": 1181,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:48:23.562Z",
+      "jobId": "gh-okta-8248800",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1093,
+      "candidatesTokens": 73,
+      "totalTokens": 1166,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:48:30.321Z",
+      "jobId": "gh-okta-7960157",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1092,
+      "candidatesTokens": 86,
+      "totalTokens": 1178,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:48:38.615Z",
+      "jobId": "gh-okta-8195169",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1090,
+      "candidatesTokens": 73,
+      "totalTokens": 1163,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:48:47.674Z",
+      "jobId": "gh-elastic-8337068",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1100,
+      "candidatesTokens": 82,
+      "totalTokens": 1182,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:48:57.760Z",
+      "jobId": "gh-gitlab-8864819002",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1091,
+      "candidatesTokens": 70,
+      "totalTokens": 1161,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:49:06.849Z",
+      "jobId": "gh-gitlab-8916232002",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1095,
+      "candidatesTokens": 86,
+      "totalTokens": 1181,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:49:17.891Z",
+      "jobId": "gh-gitlab-8887401002",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1094,
+      "candidatesTokens": 79,
+      "totalTokens": 1173,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:49:26.588Z",
+      "jobId": "gh-databricks-6918763002",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1076,
+      "candidatesTokens": 86,
+      "totalTokens": 1162,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:49:37.981Z",
+      "jobId": "gh-sumologic-8305995",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1111,
+      "candidatesTokens": 77,
+      "totalTokens": 1188,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:49:45.318Z",
+      "jobId": "gh-coinbase-8165441",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1096,
+      "candidatesTokens": 67,
+      "totalTokens": 1163,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:49:56.408Z",
+      "jobId": "gh-coinbase-8122777",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1100,
+      "candidatesTokens": 67,
+      "totalTokens": 1167,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:50:06.629Z",
+      "jobId": "gh-stripe-8352489",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1081,
+      "candidatesTokens": 85,
+      "totalTokens": 1166,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:50:18.039Z",
+      "jobId": "gh-razorpaysoftwareprivatelimited-4741226005",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1086,
+      "candidatesTokens": 77,
+      "totalTokens": 1163,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:50:30.114Z",
+      "jobId": "gh-razorpaysoftwareprivatelimited-4746959005",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1084,
+      "candidatesTokens": 73,
+      "totalTokens": 1157,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:50:41.981Z",
+      "jobId": "lever-zeta-aa98c726-9336-4d99-be08-20050eaf309c",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1092,
+      "candidatesTokens": 71,
+      "totalTokens": 1163,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:50:49.554Z",
+      "jobId": "lever-zeta-4a278744-a77e-4c34-91e5-6247ec99fe11",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1100,
+      "candidatesTokens": 77,
+      "totalTokens": 1177,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:50:58.808Z",
+      "jobId": "lever-zeta-c92d46af-5d64-4152-bc75-c9844f1dccf7",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1102,
+      "candidatesTokens": 69,
+      "totalTokens": 1171,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:51:06.175Z",
+      "jobId": "lever-zeta-b099e4fe-87cf-44ad-89b6-21edfe60958b",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1103,
+      "candidatesTokens": 74,
+      "totalTokens": 1177,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:51:13.552Z",
+      "jobId": "lever-zeta-d7608271-a46f-4783-b5a9-05737398d320",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 860,
+      "candidatesTokens": 72,
+      "totalTokens": 932,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:51:22.070Z",
+      "jobId": "lever-mindtickle-6c638c17-cd92-490a-9e0a-00a2492332fc",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1105,
+      "candidatesTokens": 74,
+      "totalTokens": 1179,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:51:28.535Z",
+      "jobId": "lever-mindtickle-da0c54e2-5dca-4fb5-b236-57080dbf8648",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1092,
+      "candidatesTokens": 74,
+      "totalTokens": 1166,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:51:37.719Z",
+      "jobId": "lever-cred-913a6616-78c9-4ca3-8c92-67ddea8a80df",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1101,
+      "candidatesTokens": 84,
+      "totalTokens": 1185,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:51:44.925Z",
+      "jobId": "lever-fampay-811d4537-ade2-43fa-83c5-e2d07839b402",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1117,
+      "candidatesTokens": 79,
+      "totalTokens": 1196,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:51:52.594Z",
+      "jobId": "lever-fampay-a7e3ad38-e09a-4d2a-8b6f-83d74a6c122c",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1113,
+      "candidatesTokens": 68,
+      "totalTokens": 1181,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:52:04.160Z",
+      "jobId": "lever-fampay-213870db-ddfd-4519-9a57-54691d89cca5",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1113,
+      "candidatesTokens": 70,
+      "totalTokens": 1183,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:52:14.717Z",
+      "jobId": "lever-fampay-bbbbbfd2-1855-4991-82d5-84ef57607c24",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1132,
+      "candidatesTokens": 84,
+      "totalTokens": 1216,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:52:22.370Z",
+      "jobId": "lever-paytm-df935f72-9721-414e-9a3b-e20a679fef07",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1071,
+      "candidatesTokens": 69,
+      "totalTokens": 1140,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:52:34.444Z",
+      "jobId": "lever-paytm-ad781ae8-cd4a-44c1-a74b-2822118b7c3d",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1060,
+      "candidatesTokens": 83,
+      "totalTokens": 1143,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:52:41.604Z",
+      "jobId": "lever-paytm-271d28ce-e61c-4216-b7d4-adddd79eefa6",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1102,
+      "candidatesTokens": 78,
+      "totalTokens": 1180,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:52:51.435Z",
+      "jobId": "lever-paytm-715e52dd-0a51-4ff7-be68-855112e56b99",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1078,
+      "candidatesTokens": 75,
+      "totalTokens": 1153,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:52:58.791Z",
+      "jobId": "lever-paytm-84ffd393-c82b-484c-9a88-9f9ddef1b720",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1090,
+      "candidatesTokens": 81,
+      "totalTokens": 1171,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:53:07.062Z",
+      "jobId": "lever-paytm-74ce5d90-26b5-41b5-81dc-2ba5b862da60",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1068,
+      "candidatesTokens": 80,
+      "totalTokens": 1148,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:53:17.728Z",
+      "jobId": "lever-paytm-7da6d28a-6f4b-4d70-975b-5e358f1b3af0",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 864,
+      "candidatesTokens": 63,
+      "totalTokens": 927,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:53:25.982Z",
+      "jobId": "lever-paytm-4e9fab80-dd1f-42c1-a163-8737291e6004",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1078,
+      "candidatesTokens": 74,
+      "totalTokens": 1152,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:53:33.071Z",
+      "jobId": "lever-paytm-426a6834-1397-4e65-94af-69874c790805",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1084,
+      "candidatesTokens": 91,
+      "totalTokens": 1175,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:53:42.194Z",
+      "jobId": "lever-paytm-0ecd9d93-e4f3-4dd0-a22e-852fec9b6e02",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1068,
+      "candidatesTokens": 68,
+      "totalTokens": 1136,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:53:51.518Z",
+      "jobId": "lever-paytm-9d497980-2032-440c-8bac-63fb53938acc",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1058,
+      "candidatesTokens": 72,
+      "totalTokens": 1130,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:54:02.948Z",
+      "jobId": "lever-paytm-021ee805-1a37-48a6-9a01-3e129ae03c3a",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1070,
+      "candidatesTokens": 81,
+      "totalTokens": 1151,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:54:26.889Z",
+      "jobId": "lever-paytm-6d7551f7-34c3-46a2-a4e4-18b29f15338c",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1068,
+      "candidatesTokens": 72,
+      "totalTokens": 1140,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:54:35.009Z",
+      "jobId": "lever-paytm-88e8b698-8f03-4e09-9581-168f831fb3af",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1062,
+      "candidatesTokens": 84,
+      "totalTokens": 1146,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:54:44.521Z",
+      "jobId": "lever-paytm-95eadc2b-27bf-40fe-b6e6-93aaeadd08f7",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1076,
+      "candidatesTokens": 75,
+      "totalTokens": 1151,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:54:52.304Z",
+      "jobId": "lever-paytm-d071f4bc-e651-48dc-85ae-a8ee904fd0fa",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1087,
+      "candidatesTokens": 89,
+      "totalTokens": 1176,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:54:59.856Z",
+      "jobId": "lever-paytm-b671fa55-dccf-4f1f-acc4-10e78d74c8b4",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1091,
+      "candidatesTokens": 87,
+      "totalTokens": 1178,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T11:55:10.619Z",
+      "jobId": "lever-paytm-552ba2c8-ffb8-4342-8d8c-ca1903800a68",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1083,
+      "candidatesTokens": 68,
+      "totalTokens": 1151,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:07:20.464Z",
+      "jobId": "gh-twilio-8358938",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1108,
+      "candidatesTokens": 63,
+      "totalTokens": 1171,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:07:27.260Z",
+      "jobId": "gh-twilio-8355801",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1107,
+      "candidatesTokens": 63,
+      "totalTokens": 1170,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:07:33.705Z",
+      "jobId": "gh-twilio-8334053",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1107,
+      "candidatesTokens": 64,
+      "totalTokens": 1171,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:07:40.086Z",
+      "jobId": "gh-datadog-8222279",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1089,
+      "candidatesTokens": 79,
+      "totalTokens": 1168,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:07:46.587Z",
+      "jobId": "gh-datadog-7785319",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1107,
+      "candidatesTokens": 89,
+      "totalTokens": 1196,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:07:53.076Z",
+      "jobId": "gh-datadog-7531575",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1089,
+      "candidatesTokens": 68,
+      "totalTokens": 1157,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:08:02.820Z",
+      "jobId": "gh-mongodb-7318558",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1064,
+      "candidatesTokens": 84,
+      "totalTokens": 1148,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:08:09.204Z",
+      "jobId": "gh-airbnb-8300382",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1086,
+      "candidatesTokens": 80,
+      "totalTokens": 1166,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:08:15.559Z",
+      "jobId": "gh-toast-8230746",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1086,
+      "candidatesTokens": 86,
+      "totalTokens": 1172,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:08:22.114Z",
+      "jobId": "gh-zscaler-5258577007",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1099,
+      "candidatesTokens": 75,
+      "totalTokens": 1174,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:08:28.590Z",
+      "jobId": "gh-zscaler-5295948007",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1096,
+      "candidatesTokens": 74,
+      "totalTokens": 1170,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:08:35.387Z",
+      "jobId": "gh-zscaler-5286993007",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1096,
+      "candidatesTokens": 71,
+      "totalTokens": 1167,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:08:42.013Z",
+      "jobId": "gh-zscaler-5276906007",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1097,
+      "candidatesTokens": 63,
+      "totalTokens": 1160,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:08:48.633Z",
+      "jobId": "gh-zscaler-5261002007",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1105,
+      "candidatesTokens": 78,
+      "totalTokens": 1183,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:08:55.125Z",
+      "jobId": "gh-zscaler-5283496007",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1099,
+      "candidatesTokens": 83,
+      "totalTokens": 1182,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:09:01.872Z",
+      "jobId": "gh-figma-5579204004",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1088,
+      "candidatesTokens": 70,
+      "totalTokens": 1158,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:09:08.514Z",
+      "jobId": "gh-figma-6223879004",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1114,
+      "candidatesTokens": 70,
+      "totalTokens": 1184,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:09:15.433Z",
+      "jobId": "gh-workato-8924723002",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1105,
+      "candidatesTokens": 82,
+      "totalTokens": 1187,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:09:22.300Z",
+      "jobId": "gh-zuora-8103489",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1074,
+      "candidatesTokens": 85,
+      "totalTokens": 1159,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:09:28.945Z",
+      "jobId": "gh-zuora-8312134",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1088,
+      "candidatesTokens": 83,
+      "totalTokens": 1171,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:09:35.876Z",
+      "jobId": "gh-pubmatic-5466677008",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1078,
+      "candidatesTokens": 93,
+      "totalTokens": 1171,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:09:42.771Z",
+      "jobId": "gh-groww-4880153101",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1094,
+      "candidatesTokens": 69,
+      "totalTokens": 1163,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:09:49.241Z",
+      "jobId": "gh-groww-4714065101",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1092,
+      "candidatesTokens": 74,
+      "totalTokens": 1166,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:09:55.540Z",
+      "jobId": "gh-groww-4980317101",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1090,
+      "candidatesTokens": 68,
+      "totalTokens": 1158,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:10:02.284Z",
+      "jobId": "gh-groww-4714061101",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1097,
+      "candidatesTokens": 68,
+      "totalTokens": 1165,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:10:08.901Z",
+      "jobId": "gh-rubrik-8166514",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1065,
+      "candidatesTokens": 71,
+      "totalTokens": 1136,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:10:15.636Z",
+      "jobId": "gh-rubrik-8223186",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1075,
+      "candidatesTokens": 68,
+      "totalTokens": 1143,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:10:22.242Z",
+      "jobId": "gh-rubrik-8305308",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1066,
+      "candidatesTokens": 81,
+      "totalTokens": 1147,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:10:28.861Z",
+      "jobId": "gh-rubrik-8345283",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1076,
+      "candidatesTokens": 80,
+      "totalTokens": 1156,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:10:35.502Z",
+      "jobId": "gh-rubrik-8385257",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1074,
+      "candidatesTokens": 74,
+      "totalTokens": 1148,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:10:42.071Z",
+      "jobId": "gh-rubrik-8336535",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1088,
+      "candidatesTokens": 79,
+      "totalTokens": 1167,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:10:48.567Z",
+      "jobId": "gh-rubrik-8349847",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1092,
+      "candidatesTokens": 95,
+      "totalTokens": 1187,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:10:55.436Z",
+      "jobId": "gh-rubrik-8166537",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1103,
+      "candidatesTokens": 87,
+      "totalTokens": 1190,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:11:01.912Z",
+      "jobId": "gh-rubrik-7956918",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1093,
+      "candidatesTokens": 84,
+      "totalTokens": 1177,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:11:08.237Z",
+      "jobId": "gh-rubrik-8282005",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1091,
+      "candidatesTokens": 74,
+      "totalTokens": 1165,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:11:15.275Z",
+      "jobId": "gh-rubrik-8377184",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1077,
+      "candidatesTokens": 86,
+      "totalTokens": 1163,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:11:21.632Z",
+      "jobId": "gh-rubrik-8166523",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1111,
+      "candidatesTokens": 88,
+      "totalTokens": 1199,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:11:27.885Z",
+      "jobId": "gh-okta-7626222",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1076,
+      "candidatesTokens": 76,
+      "totalTokens": 1152,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:11:34.746Z",
+      "jobId": "gh-okta-8354829",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1081,
+      "candidatesTokens": 70,
+      "totalTokens": 1151,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:11:41.156Z",
+      "jobId": "gh-okta-7727730",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1089,
+      "candidatesTokens": 74,
+      "totalTokens": 1163,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:11:48.150Z",
+      "jobId": "gh-okta-8288466",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1093,
+      "candidatesTokens": 83,
+      "totalTokens": 1176,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:11:55.222Z",
+      "jobId": "gh-okta-8377182",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1084,
+      "candidatesTokens": 84,
+      "totalTokens": 1168,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:12:02.258Z",
+      "jobId": "gh-okta-7770733",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1082,
+      "candidatesTokens": 93,
+      "totalTokens": 1175,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:12:08.798Z",
+      "jobId": "gh-okta-8003027",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1093,
+      "candidatesTokens": 74,
+      "totalTokens": 1167,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:12:15.185Z",
+      "jobId": "gh-okta-8248830",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1094,
+      "candidatesTokens": 85,
+      "totalTokens": 1179,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:12:21.689Z",
+      "jobId": "gh-okta-8248800",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1093,
+      "candidatesTokens": 72,
+      "totalTokens": 1165,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:12:29.332Z",
+      "jobId": "gh-okta-7960157",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1092,
+      "candidatesTokens": 87,
+      "totalTokens": 1179,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:12:36.946Z",
+      "jobId": "gh-okta-8405211",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1089,
+      "candidatesTokens": 83,
+      "totalTokens": 1172,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:12:43.531Z",
+      "jobId": "gh-okta-8195169",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1090,
+      "candidatesTokens": 84,
+      "totalTokens": 1174,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:12:49.907Z",
+      "jobId": "gh-elastic-8337068",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1100,
+      "candidatesTokens": 82,
+      "totalTokens": 1182,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:12:56.750Z",
+      "jobId": "gh-gitlab-8864819002",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1091,
+      "candidatesTokens": 70,
+      "totalTokens": 1161,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:13:03.091Z",
+      "jobId": "gh-gitlab-8916232002",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1095,
+      "candidatesTokens": 85,
+      "totalTokens": 1180,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:13:09.596Z",
+      "jobId": "gh-gitlab-8887401002",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1094,
+      "candidatesTokens": 75,
+      "totalTokens": 1169,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:13:16.782Z",
+      "jobId": "gh-databricks-6918763002",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1076,
+      "candidatesTokens": 87,
+      "totalTokens": 1163,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:13:23.239Z",
+      "jobId": "gh-sumologic-8305995",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1111,
+      "candidatesTokens": 74,
+      "totalTokens": 1185,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:13:29.723Z",
+      "jobId": "gh-coinbase-8165441",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1096,
+      "candidatesTokens": 67,
+      "totalTokens": 1163,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:13:48.545Z",
+      "jobId": "gh-coinbase-8122777",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1100,
+      "candidatesTokens": 62,
+      "totalTokens": 1162,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:13:55.284Z",
+      "jobId": "gh-stripe-8352489",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1081,
+      "candidatesTokens": 75,
+      "totalTokens": 1156,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:14:01.660Z",
+      "jobId": "gh-razorpaysoftwareprivatelimited-4741226005",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1086,
+      "candidatesTokens": 70,
+      "totalTokens": 1156,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:14:08.372Z",
+      "jobId": "gh-razorpaysoftwareprivatelimited-4746959005",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1084,
+      "candidatesTokens": 73,
+      "totalTokens": 1157,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:14:14.601Z",
+      "jobId": "lever-zeta-aa98c726-9336-4d99-be08-20050eaf309c",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1092,
+      "candidatesTokens": 70,
+      "totalTokens": 1162,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:14:22.822Z",
+      "jobId": "lever-zeta-4a278744-a77e-4c34-91e5-6247ec99fe11",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1100,
+      "candidatesTokens": 66,
+      "totalTokens": 1166,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:14:29.324Z",
+      "jobId": "lever-zeta-c92d46af-5d64-4152-bc75-c9844f1dccf7",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1102,
+      "candidatesTokens": 65,
+      "totalTokens": 1167,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:14:35.857Z",
+      "jobId": "lever-zeta-b099e4fe-87cf-44ad-89b6-21edfe60958b",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1103,
+      "candidatesTokens": 83,
+      "totalTokens": 1186,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:14:43.138Z",
+      "jobId": "lever-zeta-d7608271-a46f-4783-b5a9-05737398d320",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 860,
+      "candidatesTokens": 75,
+      "totalTokens": 935,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:14:54.437Z",
+      "jobId": "lever-mindtickle-6c638c17-cd92-490a-9e0a-00a2492332fc",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1105,
+      "candidatesTokens": 74,
+      "totalTokens": 1179,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:15:07.803Z",
+      "jobId": "lever-mindtickle-da0c54e2-5dca-4fb5-b236-57080dbf8648",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1092,
+      "candidatesTokens": 75,
+      "totalTokens": 1167,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:15:14.828Z",
+      "jobId": "lever-cred-913a6616-78c9-4ca3-8c92-67ddea8a80df",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1101,
+      "candidatesTokens": 89,
+      "totalTokens": 1190,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:15:21.292Z",
+      "jobId": "lever-fampay-811d4537-ade2-43fa-83c5-e2d07839b402",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1117,
+      "candidatesTokens": 79,
+      "totalTokens": 1196,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:15:28.136Z",
+      "jobId": "lever-fampay-a7e3ad38-e09a-4d2a-8b6f-83d74a6c122c",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1113,
+      "candidatesTokens": 80,
+      "totalTokens": 1193,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:15:34.843Z",
+      "jobId": "lever-fampay-213870db-ddfd-4519-9a57-54691d89cca5",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1113,
+      "candidatesTokens": 70,
+      "totalTokens": 1183,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:15:41.652Z",
+      "jobId": "lever-fampay-bbbbbfd2-1855-4991-82d5-84ef57607c24",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1132,
+      "candidatesTokens": 79,
+      "totalTokens": 1211,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:15:48.181Z",
+      "jobId": "lever-paytm-df935f72-9721-414e-9a3b-e20a679fef07",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1071,
+      "candidatesTokens": 69,
+      "totalTokens": 1140,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:16:02.611Z",
+      "jobId": "lever-paytm-ad781ae8-cd4a-44c1-a74b-2822118b7c3d",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1060,
+      "candidatesTokens": 84,
+      "totalTokens": 1144,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:16:15.717Z",
+      "jobId": "lever-paytm-271d28ce-e61c-4216-b7d4-adddd79eefa6",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1102,
+      "candidatesTokens": 70,
+      "totalTokens": 1172,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:16:22.092Z",
+      "jobId": "lever-paytm-715e52dd-0a51-4ff7-be68-855112e56b99",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1078,
+      "candidatesTokens": 84,
+      "totalTokens": 1162,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:16:37.744Z",
+      "jobId": "lever-paytm-84ffd393-c82b-484c-9a88-9f9ddef1b720",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1090,
+      "candidatesTokens": 81,
+      "totalTokens": 1171,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:16:45.322Z",
+      "jobId": "lever-paytm-74ce5d90-26b5-41b5-81dc-2ba5b862da60",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1068,
+      "candidatesTokens": 67,
+      "totalTokens": 1135,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:16:53.031Z",
+      "jobId": "lever-paytm-7da6d28a-6f4b-4d70-975b-5e358f1b3af0",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 864,
+      "candidatesTokens": 79,
+      "totalTokens": 943,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:16:59.822Z",
+      "jobId": "lever-paytm-4e9fab80-dd1f-42c1-a163-8737291e6004",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1078,
+      "candidatesTokens": 80,
+      "totalTokens": 1158,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:17:06.206Z",
+      "jobId": "lever-paytm-426a6834-1397-4e65-94af-69874c790805",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1084,
+      "candidatesTokens": 88,
+      "totalTokens": 1172,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:17:12.736Z",
+      "jobId": "lever-paytm-0ecd9d93-e4f3-4dd0-a22e-852fec9b6e02",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1068,
+      "candidatesTokens": 73,
+      "totalTokens": 1141,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:17:19.069Z",
+      "jobId": "lever-paytm-9d497980-2032-440c-8bac-63fb53938acc",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1058,
+      "candidatesTokens": 90,
+      "totalTokens": 1148,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:17:25.825Z",
+      "jobId": "lever-paytm-021ee805-1a37-48a6-9a01-3e129ae03c3a",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1070,
+      "candidatesTokens": 85,
+      "totalTokens": 1155,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:17:32.525Z",
+      "jobId": "lever-paytm-6d7551f7-34c3-46a2-a4e4-18b29f15338c",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1068,
+      "candidatesTokens": 72,
+      "totalTokens": 1140,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:17:39.055Z",
+      "jobId": "lever-paytm-88e8b698-8f03-4e09-9581-168f831fb3af",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1062,
+      "candidatesTokens": 84,
+      "totalTokens": 1146,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:17:47.931Z",
+      "jobId": "lever-paytm-95eadc2b-27bf-40fe-b6e6-93aaeadd08f7",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1076,
+      "candidatesTokens": 74,
+      "totalTokens": 1150,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:17:54.468Z",
+      "jobId": "lever-paytm-d071f4bc-e651-48dc-85ae-a8ee904fd0fa",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1087,
+      "candidatesTokens": 92,
+      "totalTokens": 1179,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:18:00.869Z",
+      "jobId": "lever-paytm-b671fa55-dccf-4f1f-acc4-10e78d74c8b4",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1091,
+      "candidatesTokens": 92,
+      "totalTokens": 1183,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-20T12:18:07.899Z",
+      "jobId": "lever-paytm-552ba2c8-ffb8-4342-8d8c-ca1903800a68",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1083,
+      "candidatesTokens": 70,
+      "totalTokens": 1153,
+      "success": true
+    }
+  ]
+}

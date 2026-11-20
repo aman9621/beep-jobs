@@ -1,0 +1,35 @@
+{
+  "name": "beep-jobs",
+  "version": "1.0.0",
+  "description": "Live fresher and internship job aggregator in India with LLM tagging and daily automated refresh",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "refresh": "node refresh.js",
+    "refresh:mock": "node refresh.js --mock",
+    "seed": "node scripts/seed_live.js",
+    "seed:mock": "node scripts/seed_live.js --mock",
+    "eval:sample": "node scripts/make_eval_sample.js",
+    "eval:score": "node scripts/score_eval.js",
+    "cost": "node scripts/cost_report.js"
+  },
+  "keywords": [
+    "jobs",
+    "fresher",
+    "internship",
+    "india",
+    "gemini",
+    "llm",
+    "aggregator"
+  ],
+  "author": "Aman Kumar",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

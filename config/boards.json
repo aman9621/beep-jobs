@@ -1,0 +1,13 @@
+{
+  "greenhouse": [
+    "druva", "twilio", "samsara", "datadog", "mongodb", "airbnb", "toast",
+    "zscaler", "figma", "mixpanel", "workato", "zuora", "netskope", "pubmatic",
+    "groww", "inmobi", "rubrik", "okta", "elastic", "gitlab", "databricks",
+    "sumologic", "coinbase", "stripe",
+    "postman", "browserstack", "clevertap", "thoughtworks", "hasura", "wingify",
+    "razorpaysoftwareprivatelimited", "freshworks", "harness", "appsmith",
+    "confluent", "hashicorp", "snyk", "pagerduty", "contentful", "benchling", "expensify", "gusto"
+  ],
+  "lever": ["zeta", "mindtickle", "cred", "fampay", "paytm", "chargebee", "moengage", "cars24"],
+  "ashby": ["amplitude", "meesho", "slice", "khatabook", "coindcx", "juspay", "cashfree", "setu"]
+}
