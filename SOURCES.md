@@ -339,7 +339,7 @@ AI tools assisted with code generation, debugging, and iteration. The implementa
 |---|---|
 | Live Application | https://beep-jobs-4v5x.onrender.com |
 | GitHub Repository | https://github.com/aman9621/beep-jobs |
-| Walkthrough | *Loom link to be added* |
+| Walkthrough | https://www.loom.com/share/12daed8eb8e84e68a030e79e6208df8f |
 | Evaluation Dataset | `eval/sample_50_checked.csv` |
 
 ---
