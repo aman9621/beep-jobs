@@ -197,14 +197,23 @@ async function main() {
   const { uniqueJobs } = dedupeJobs(filtered, { enableFuzzy: false });
   console.log(`[Seed] After dedupe: ${uniqueJobs.length} unique jobs`);
 
+  // Reuse tags from the previous jobs.json so only NEW jobs call Gemini
+  const existingMap = {};
+  try {
+    const prev = JSON.parse(fs.readFileSync(JOBS_PATH, 'utf-8'));
+    for (const j of prev.jobs || []) existingMap[j.id] = j;
+  } catch (e) { /* first run, nothing cached */ }
+
   console.log(`\n[Seed] Tagging with Gemini (mock=${isMock})...`);
-  const tagged = await tagJobsBatch(uniqueJobs, {}, {
+  const taggedAll = await tagJobsBatch(uniqueJobs, existingMap, {
     apiKey: process.env.GEMINI_API_KEY,
     model: process.env.GEMINI_MODEL || 'gemini-3.5-flash-lite',
     isMock,
     batchSize: 1,
     delayBetweenBatchesMs: 5000
   });
+  const tagged = taggedAll.filter((j) => !j.tagFailed);
+  console.log(`[Seed] Tag failures skipped (retry next run): ${taggedAll.length - tagged.length}`);
 
   const payload = {
     lastUpdated: new Date().toISOString(),
