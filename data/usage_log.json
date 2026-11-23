@@ -1,9 +1,9 @@
 {
   "summary": {
-    "totalCalls": 517,
-    "totalPromptTokens": 340631,
-    "totalCandidatesTokens": 23537,
-    "totalTokens": 364168
+    "totalCalls": 518,
+    "totalPromptTokens": 341738,
+    "totalCandidatesTokens": 23612,
+    "totalTokens": 365350
   },
   "calls": [
     {
@@ -2524,6 +2524,15 @@
       "promptTokens": 1083,
       "candidatesTokens": 70,
       "totalTokens": 1153,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-23T10:28:46.750Z",
+      "jobId": "gh-twilio-8065032",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1107,
+      "candidatesTokens": 75,
+      "totalTokens": 1182,
       "success": true
     }
   ]
