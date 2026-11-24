@@ -1,9 +1,9 @@
 {
   "summary": {
-    "totalCalls": 518,
-    "totalPromptTokens": 341738,
-    "totalCandidatesTokens": 23612,
-    "totalTokens": 365350
+    "totalCalls": 520,
+    "totalPromptTokens": 343689,
+    "totalCandidatesTokens": 23766,
+    "totalTokens": 367455
   },
   "calls": [
     {
@@ -2533,6 +2533,24 @@
       "promptTokens": 1107,
       "candidatesTokens": 75,
       "totalTokens": 1182,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-24T12:09:50.922Z",
+      "jobId": "gh-rubrik-8133997",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1088,
+      "candidatesTokens": 82,
+      "totalTokens": 1170,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-24T12:10:04.694Z",
+      "jobId": "lever-paytm-c8886602-f1b7-4c08-b181-f4d36b2d0e80",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 863,
+      "candidatesTokens": 72,
+      "totalTokens": 935,
       "success": true
     }
   ]
