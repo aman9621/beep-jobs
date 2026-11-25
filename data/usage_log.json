@@ -1,9 +1,9 @@
 {
   "summary": {
-    "totalCalls": 520,
-    "totalPromptTokens": 343689,
-    "totalCandidatesTokens": 23766,
-    "totalTokens": 367455
+    "totalCalls": 524,
+    "totalPromptTokens": 348005,
+    "totalCandidatesTokens": 24074,
+    "totalTokens": 372079
   },
   "calls": [
     {
@@ -2551,6 +2551,42 @@
       "promptTokens": 863,
       "candidatesTokens": 72,
       "totalTokens": 935,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-25T10:58:34.974Z",
+      "jobId": "gh-mongodb-7318466",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1062,
+      "candidatesTokens": 74,
+      "totalTokens": 1136,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-25T10:58:40.618Z",
+      "jobId": "gh-toast-8348999",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1063,
+      "candidatesTokens": 67,
+      "totalTokens": 1130,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-25T10:58:46.353Z",
+      "jobId": "lever-zeta-38accd53-250f-4e8f-b635-261f31f78b65",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1107,
+      "candidatesTokens": 77,
+      "totalTokens": 1184,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-25T10:58:52.390Z",
+      "jobId": "lever-paytm-088a2cf3-101d-4ce8-91a7-880551d9cfd1",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1084,
+      "candidatesTokens": 90,
+      "totalTokens": 1174,
       "success": true
     }
   ]
