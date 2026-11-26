@@ -1,9 +1,9 @@
 {
   "summary": {
-    "totalCalls": 524,
-    "totalPromptTokens": 348005,
-    "totalCandidatesTokens": 24074,
-    "totalTokens": 372079
+    "totalCalls": 531,
+    "totalPromptTokens": 355689,
+    "totalCandidatesTokens": 24565,
+    "totalTokens": 380254
   },
   "calls": [
     {
@@ -2587,6 +2587,69 @@
       "promptTokens": 1084,
       "candidatesTokens": 90,
       "totalTokens": 1174,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-26T10:35:59.956Z",
+      "jobId": "gh-mongodb-7318558",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1064,
+      "candidatesTokens": 72,
+      "totalTokens": 1136,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-26T10:36:05.685Z",
+      "jobId": "gh-zscaler-5276906007",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1097,
+      "candidatesTokens": 66,
+      "totalTokens": 1163,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-26T10:36:11.505Z",
+      "jobId": "gh-rubrik-8413157",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1078,
+      "candidatesTokens": 82,
+      "totalTokens": 1160,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-26T10:36:17.899Z",
+      "jobId": "gh-coinbase-8417917",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1112,
+      "candidatesTokens": 66,
+      "totalTokens": 1178,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-26T10:36:23.528Z",
+      "jobId": "gh-razorpaysoftwareprivatelimited-4757678005",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1085,
+      "candidatesTokens": 67,
+      "totalTokens": 1152,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-26T10:36:31.567Z",
+      "jobId": "lever-zeta-331526ff-cb2d-4b93-a812-ff37ebb7edc2",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1126,
+      "candidatesTokens": 65,
+      "totalTokens": 1191,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-26T10:36:37.396Z",
+      "jobId": "lever-fampay-cf014ef0-218a-4041-a238-ff91c7b9a5bc",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1122,
+      "candidatesTokens": 73,
+      "totalTokens": 1195,
       "success": true
     }
   ]
