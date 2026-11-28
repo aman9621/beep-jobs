@@ -1,9 +1,9 @@
 {
   "summary": {
-    "totalCalls": 537,
-    "totalPromptTokens": 362204,
-    "totalCandidatesTokens": 25017,
-    "totalTokens": 387221
+    "totalCalls": 541,
+    "totalPromptTokens": 366557,
+    "totalCandidatesTokens": 25314,
+    "totalTokens": 391871
   },
   "calls": [
     {
@@ -2704,6 +2704,42 @@
       "promptTokens": 1062,
       "candidatesTokens": 82,
       "totalTokens": 1144,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-28T09:56:04.082Z",
+      "jobId": "gh-twilio-8346263",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1107,
+      "candidatesTokens": 64,
+      "totalTokens": 1171,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-28T09:56:09.836Z",
+      "jobId": "gh-mongodb-7318558",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1064,
+      "candidatesTokens": 85,
+      "totalTokens": 1149,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-28T09:56:18.288Z",
+      "jobId": "gh-rubrik-8336677",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1082,
+      "candidatesTokens": 80,
+      "totalTokens": 1162,
+      "success": true
+    },
+    {
+      "timestamp": "2026-11-28T09:56:23.816Z",
+      "jobId": "gh-rubrik-8345590",
+      "model": "gemini-3.5-flash-lite",
+      "promptTokens": 1100,
+      "candidatesTokens": 68,
+      "totalTokens": 1168,
       "success": true
     }
   ]
